@@ -106,19 +106,49 @@ import math
 
 # 7)
 # task 1
-num1 = 10
-num2 = 2
-print(num1 > num2)
-print(num1, num2)
-num3 = num1
-num1 = num2
-num2 = num3
-print(num1 > num2)
-print(num1, num2)
+# num1 = 10
+# num2 = 2
+# print(num1 > num2)
+# # print(num1, num2)
+# num3 = num1
+# num1 = num2
+# num2 = num3
+# print(num1 > num2)
+# # print(num1, num2)
 
 # task 2
-# isPerfectSqaure = input('choose a number ')
-# squared = int(isPerfectSqaure) ** 2
-# if int(math.sqrt(squared)) == float:
+# def is_it_perfect_square(number):
+#     if number <= 0:
+#         return False
+#     square_root = number ** .5
+    
+#     print(square_root)
+#     print(int(square_root))
+#     if square_root == int(square_root):
+#         return True
+#     else: 
+#         return False
+    
+# print(is_it_perfect_square(64))
+# print(is_it_perfect_square(65))
 
-print((math.sqrt(35)))
+# 8)
+# task 1
+element1 = True
+element2 = True
+element3 = False
+element4 = False
+
+print(element1 and element4)
+print(element1 or element4)
+print(element1 and not element4)
+print(element1 and element3)
+print(element1 and element3 or element4 and element2)
+
+# task 2
+print( 9 * 4 + 5)
+print(9 * (4 + 5))
+
+# task 3
+res = 28 / 4 > 2 and 28 / (4 / 2) == 2
+print(res)
